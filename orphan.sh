@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-git fetch origin
-git checkout -B temp-"$(date "+%m%d-%H%M%S")"
+git checkout --orphan latest_branch
+git add -A
+git commit -m "initial commit"
+echo "本地初始化为 master..."
 git branch -D master
-git prune
-git checkout -B "$(git config user.name)" origin/master
+git branch -m master
+echo "强制更新远程 master..."
+git push -f origin master
