@@ -1,0 +1,8 @@
+# 帮助文档
+
+. 执行 `SwaggerPdfApplicationTests` 中的 `generateAsciiDocs` 方法；
+. 会在 `src/docs/asciidoc/generated` 产生 `all_zh_CN.adoc` 文件；
+. 打开 `all_zh_CN.adoc` 文件；
+. 使用IDEA中的生成pdf功能即可输出 pdf 文件（有点慢）；
+
+image::help.png[]

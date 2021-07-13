@@ -1,0 +1,26 @@
+# default theme at https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-theme.yml
+extends: default
+font:
+  fallbacks:
+    - kaigen-gothic-cn
+  catalog:
+    # These are the KaiGen Gothic CN fonts, download them from
+    # https://github.com/m13253/kaigen-gothic
+    kaigen-gothic-cn:
+      normal: KaiGenGothicCN-Normal.ttf
+      bold: KaiGenGothicCN-Normal.ttf
+      italic: KaiGenGothicCN-Normal.ttf
+      bold_italic: KaiGenGothicCN-Normal.ttf
+    Noto Serif:
+      normal: KaiGenGothicCN-Normal.ttf
+      bold: KaiGenGothicCN-Normal.ttf
+      italic: KaiGenGothicCN-Normal.ttf
+      bold_italic: KaiGenGothicCN-Normal.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: KaiGenGothicCN-Normal.ttf
+      bold: KaiGenGothicCN-Normal.ttf
+      italic: KaiGenGothicCN-Normal.ttf
+      bold_italic: KaiGenGothicCN-Normal.ttf
+base:
+  font_family: kaigen-gothic-cn
